@@ -34,7 +34,8 @@ var applicationInsightsName = 'toywebsite'
 var storageAccountName = 'mystorage${resourceNameSuffix}'
 var storageAccountImagesBlobContainerName = 'toyimages'
 var sqlServerName = 'toy-website-${resourceNameSuffix}'
-var sqlDatabaseName = 'Toys'
+// var sqlDatabaseName = 'Toys'
+var sqlDatabaseName = 'ToysPraiv'
 
 // Define the connection string to access Azure SQL.
 var sqlDatabaseConnectionString = 'Server=tcp:${sqlServer.properties.fullyQualifiedDomainName},1433;Initial Catalog=${sqlDatabase.name};Persist Security Info=False;User ID=${sqlServerAdministratorLogin};Password=${sqlServerAdministratorLoginPassword};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
